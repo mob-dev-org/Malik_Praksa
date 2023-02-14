@@ -1,4 +1,4 @@
-const numbers=[1,2,4,5,6,7,7,7]
+const numbers:number[]=[1,2,4,5,6,7,7,7]
 console.log(numbers)//we will console whole array
 console.log(numbers.length)// consoling number of elements in array
 
