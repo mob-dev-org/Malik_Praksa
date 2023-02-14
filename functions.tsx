@@ -1,3 +1,5 @@
+import { Button, View } from "react-native"
+
 function showMessage (){
     alert("this is message")//function will alert message
 }
@@ -11,4 +13,16 @@ function message (name:string, message:string){
 
 
 message("maki", "how are you")//this two parameters will be sended to function message 
+
+//we can also write this like 
+const message2=(name:string, message:string)=>alert(name+message)
+
+const app=()=>{
+return(
+    <View>
+        <Button title="press" onPress={()=>message2()}/>
+    </View>
+)
+
+}
 
