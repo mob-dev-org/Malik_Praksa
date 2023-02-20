@@ -5,12 +5,16 @@ type People={
     name:string,
     age:number,
     job:string
-}
+}[]
 
-let people:People={
-    name:"Malik", 
+let people:People=
+    [{name:"Malik", 
     age:23,
-    job:"police"
-}
+    job:"police"},
+
+    {name:"Harun", 
+    age:25,
+    job:"police"}]
+
 
 alert({...people})
