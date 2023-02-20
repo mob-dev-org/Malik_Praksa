@@ -15,7 +15,7 @@ export default function TabOneScreen({
         darkColor="rgba(255,255,255,0.1)"
       />
       */}
-       <EditScreenInfo path="/screens/TabTwoScreen.tsx" />
+       
     </View>
   );
 }
